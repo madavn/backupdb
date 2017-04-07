@@ -1,0 +1,38 @@
+
+
+
+
+
+
+
+
+
+
+$TTL 14400
+@       IN      SOA     ns1.example-ns.com.      hostmaster.massagez.net. (
+                                                2017010700
+                                                14400
+                                                3600
+                                                1209600
+                                                86400 )
+
+massagez.net.	14400	IN	NS	ns1.example-ns.com.
+massagez.net.	14400	IN	NS	ns2.example-ns.com.
+
+ftp	14400	IN	A	61.14.232.223
+mail	14400	IN	A	61.14.232.223
+massagez.net.	14400	IN	A	61.14.232.223
+pop	14400	IN	A	61.14.232.223
+smtp	14400	IN	A	61.14.232.223
+www	14400	IN	A	61.14.232.223
+
+massagez.net.	14400	IN	MX	10 mail
+
+
+
+massagez.net.	14400	IN	TXT	"v=spf1 a mx ip4: ~all"
+
+
+
+
+
